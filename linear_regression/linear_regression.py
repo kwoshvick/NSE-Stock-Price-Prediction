@@ -7,17 +7,12 @@ from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing, cross_validation, svm
 
 df = quandl.get("WIKI/AMZN")
-
 print(df)
-
 exit()
 
-
 df = df[['Adj. Close']]
-
 forecast_out = int(30) # predicting 30 days into future
 df['Prediction'] = df[['Adj. Close']].shift(-forecast_out) #  label column with data shifted 30 units up
-
 X = np.array(df.drop(['Prediction'], 1))
 X = preprocessing.scale(X)
 
