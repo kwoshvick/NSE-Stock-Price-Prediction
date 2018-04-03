@@ -2,14 +2,16 @@ import pandas as pd
 import numpy as np
 from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing, cross_validation, svm
+from sklearn.ensemble import RandomForestRegressor
+# from sklearn.naive_bayes import MultinomialNB
+from sklearn.linear_model import BayesianRidge
+from sklearn.tree import DecisionTreeRegressor
 
+from sklearn.svm import SVR
 
 df = pd.read_csv('SCOM.csv')
 
-
 df_close = df[[3]]
-
-
 
 forecast_out = int(30) # predicting 30 days into future
 
@@ -32,10 +34,14 @@ y = y[:-forecast_out]
 
 
 
-X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size = 0.2)
+X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size = 0.3)
 
 # Training
-clf = LinearRegression()
+# clf = LinearRegression()
+# clf = RandomForestRegressor()
+# clf = GaussianNB()
+clf = BayesianRidge()
+# clf = SVR()
 clf.fit(X_train,y_train)
 # Testing
 confidence = clf.score(X_test, y_test)
