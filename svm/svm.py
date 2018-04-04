@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
-from sklearn.linear_model import LinearRegression
-from sklearn import preprocessing, cross_validation
 
+from sklearn import preprocessing, cross_validation, svm
+
+
+from sklearn.svm import SVR
 
 df = pd.read_csv('SCOM.csv')
 
@@ -32,7 +34,7 @@ y = y[:-forecast_out]
 X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size = 0.3)
 
 # Training
-clf = LinearRegression()
+clf = SVR()
 clf.fit(X_train,y_train)
 # Testing
 confidence = clf.score(X_test, y_test)
