@@ -8,7 +8,13 @@ from sklearn.svm import SVR
 
 df = pd.read_csv('SCOM.csv')
 
+# print(df[[3]])
+#
+# exit()
+
 df_close = df[[3]]
+
+# exit()
 
 forecast_out = int(30) # predicting 30 days into future
 

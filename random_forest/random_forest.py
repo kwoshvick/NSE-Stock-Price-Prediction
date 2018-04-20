@@ -4,9 +4,7 @@ from sklearn import preprocessing, cross_validation
 from sklearn.ensemble import RandomForestRegressor
 
 
-from sklearn.svm import SVR
-
-df = pd.read_csv('SCOM.csv')
+df = pd.read_csv('../SCOM.csv')
 
 df_close = df[[3]]
 
@@ -15,7 +13,7 @@ forecast_out = int(30) # predicting 30 days into future
 
 df['Prediction'] = df_close.shift(-forecast_out) #  label column with data shifted 30 units up
 
-# print(df.tail())
+
 
 X = np.array(df.drop(['Prediction'], 1))
 X = preprocessing.scale(X)

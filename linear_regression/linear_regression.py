@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn import preprocessing, cross_validation
 
 
-df = pd.read_csv('SCOM.csv')
+df = pd.read_csv('../SCOM.csv')
 
 df_close = df[[3]]
 
