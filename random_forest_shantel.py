@@ -1,21 +1,19 @@
 import pandas as pd
 import numpy as np
 from sklearn import preprocessing, cross_validation
-
-from sklearn.neural_network import MLPRegressor
-
+from sklearn.ensemble import RandomForestRegressor
 
 
-df = pd.read_csv('../equity.csv')
+df = pd.read_csv('shantel.csv')
 
-df_close = df[[3]]
+df_close = df[[6]]
 
-forecast_out = int(30) # predicting 30 days into future
+forecast_out = int(1) # predicting 30 days into future
 
 
 df['Prediction'] = df_close.shift(-forecast_out) #  label column with data shifted 30 units up
 
-# print(df.tail())
+
 
 X = np.array(df.drop(['Prediction'], 1))
 X = preprocessing.scale(X)
@@ -32,8 +30,9 @@ y = y[:-forecast_out]
 
 
 X_train, X_test, y_train, y_test = cross_validation.train_test_split(X, y, test_size = 0.3)
+
 # Training
-clf = MLPRegressor()
+clf = RandomForestRegressor()
 clf.fit(X_train,y_train)
 # Testing
 confidence = clf.score(X_test, y_test)
@@ -41,6 +40,4 @@ print("confidence: ", confidence)
 
 
 forecast_prediction = clf.predict(X_forecast)
-
-print('30 Days prediction')
 print(forecast_prediction)

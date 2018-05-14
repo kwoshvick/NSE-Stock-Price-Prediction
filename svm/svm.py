@@ -6,7 +6,7 @@ from sklearn import preprocessing, cross_validation, svm
 
 from sklearn.svm import SVR
 
-df = pd.read_csv('SCOM.csv')
+df = pd.read_csv('../equity.csv')
 
 # print(df[[3]])
 #
