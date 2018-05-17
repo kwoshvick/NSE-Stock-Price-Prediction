@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c18bc0f-3cac-4885-8da6-69aa4d012858" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/EQTY.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bayesian_ridge_shantel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/labeled_shantel.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mean_squared.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neural_network_shantel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/random_forest_shantel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/svm_shantel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SCOM.csv" beforeDir="false" afterPath="$PROJECT_DIR$/SCOM.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linear_regression/linear_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear_regression/linear_regression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/n_b/bayesian_ridge.py" beforeDir="false" afterPath="$PROJECT_DIR$/n_b/bayesian_ridge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/neural_network/neural_network.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network/neural_network.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_forest/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_forest/random_forest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svm/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/neural_network_shantel.py" beforeDir="false" afterPath="$PROJECT_DIR$/neural_network_shantel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.py" beforeDir="false" afterPath="$PROJECT_DIR$/test2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,22 +21,22 @@
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$svm.coverage" NAME="svm Coverage Results" MODIFIED="1524856869088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/svm" />
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$mean_squared.coverage" NAME="mean_squared Coverage Results" MODIFIED="1524858517155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$neural_network.coverage" NAME="neural_network Coverage Results" MODIFIED="1524818821260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/neural_network" />
-    <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1524665467093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$graph.coverage" NAME="graph Coverage Results" MODIFIED="1524900014637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1526577700523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$linear_regression__1_.coverage" NAME="linear_regression (1) Coverage Results" MODIFIED="1522755903716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linear_regression" />
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$bayesian_ridge.coverage" NAME="bayesian_ridge Coverage Results" MODIFIED="1524857317937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/n_b" />
-    <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$svm_shantel.coverage" NAME="svm_shantel Coverage Results" MODIFIED="1525020443656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$svm_shantel.coverage" NAME="svm_shantel Coverage Results" MODIFIED="1526576882774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$test.coverage" NAME="test Coverage Results" MODIFIED="1524410317263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$random_forest.coverage" NAME="random_forest Coverage Results" MODIFIED="1524857135698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_forest" />
-    <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$neural_network_shantel.coverage" NAME="neural_network_shantel Coverage Results" MODIFIED="1525020343960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/NSE_Stock_Price_Prediction$neural_network_shantel.coverage" NAME="neural_network_shantel Coverage Results" MODIFIED="1526577525766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="svm_shantel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/svm_shantel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="119">
+              <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -57,38 +44,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random_forest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/random_forest/random_forest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="43" selection-end-line="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="neural_network_shantel.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/neural_network_shantel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="33" />
+            <state relative-caret-position="184">
+              <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="neural_network.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/neural_network/neural_network.py">
+      <file leaf-file-name="test2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="labeled_shantel.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/labeled_shantel.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1656">
-              <caret line="92" column="19" selection-start-line="92" selection-start-column="19" selection-end-line="92" selection-end-column="19" />
+            <state relative-caret-position="252">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,15 +99,15 @@
         <option value="$PROJECT_DIR$/n_b/bayesian_ridge.py" />
         <option value="$PROJECT_DIR$/bayesian_ridge_shantel.py" />
         <option value="$PROJECT_DIR$/random_forest_shantel.py" />
-        <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/neural_network/neural_network.py" />
         <option value="$PROJECT_DIR$/random_forest/random_forest.py" />
         <option value="$PROJECT_DIR$/mean_squared.py" />
         <option value="$PROJECT_DIR$/graph.py" />
         <option value="$PROJECT_DIR$/labeled_shantel.csv" />
         <option value="$PROJECT_DIR$/shantel.csv" />
-        <option value="$PROJECT_DIR$/neural_network_shantel.py" />
         <option value="$PROJECT_DIR$/svm_shantel.py" />
+        <option value="$PROJECT_DIR$/neural_network_shantel.py" />
+        <option value="$PROJECT_DIR$/test2.py" />
       </list>
     </option>
   </component>
@@ -143,10 +118,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2" />
-    <option name="y" value="6" />
-    <option name="width" value="1364" />
-    <option name="height" value="673" />
+    <option name="x" value="4" />
+    <option name="y" value="68" />
+    <option name="width" value="1362" />
+    <option name="height" value="637" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -154,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -162,35 +136,11 @@
               <item name="NSE-Stock-Price-Prediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="NSE-Stock-Price-Prediction" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NSE-Stock-Price-Prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NSE-Stock-Price-Prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="linear_regression" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NSE-Stock-Price-Prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NSE-Stock-Price-Prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="n_b" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NSE-Stock-Price-Prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NSE-Stock-Price-Prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="neural_network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NSE-Stock-Price-Prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NSE-Stock-Price-Prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="random_forest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NSE-Stock-Price-Prediction" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NSE-Stock-Price-Prediction" type="462c0819:PsiDirectoryNode" />
-              <item name="svm" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,26 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.svm_shantel">
-    <configuration name="bayesian_ridge" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="NSE-Stock-Price-Prediction" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/n_b" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/n_b/bayesian_ridge.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.test2">
     <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="NSE-Stock-Price-Prediction" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -319,20 +250,39 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="NSE-Stock-Price-Prediction" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.mean_squared" />
-      <item itemvalue="Python.bayesian_ridge" />
       <item itemvalue="Python.graph" />
       <item itemvalue="Python.svm_shantel" />
       <item itemvalue="Python.neural_network_shantel" />
+      <item itemvalue="Python.test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.svm_shantel" />
+        <item itemvalue="Python.test2" />
         <item itemvalue="Python.neural_network_shantel" />
+        <item itemvalue="Python.svm_shantel" />
         <item itemvalue="Python.graph" />
         <item itemvalue="Python.mean_squared" />
-        <item itemvalue="Python.bayesian_ridge" />
       </list>
     </recent_temporary>
   </component>
@@ -350,17 +300,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="-11" width="1368" height="717" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-4" width="1366" height="709" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007576" side_tool="true" weight="0.32698962" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286517" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.5486111" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34083045" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560606" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.35467127" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34083045" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23939393" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" weight="0.5560606" />
@@ -381,26 +330,26 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22803031" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286517" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.5486111" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3979239" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.34083045" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007576" side_tool="true" weight="0.32698962" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286517" />
       <window_info anchor="right" id="SciView" order="3" weight="0.5560606" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32871974" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -672,13 +621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linear_regression/linear_regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -686,41 +628,6 @@
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bayesian_ridge_shantel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_forest_shantel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mean_squared.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
         </state>
       </provider>
     </entry>
@@ -738,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shantel.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/neural_network/neural_network.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -759,27 +659,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/neural_network_shantel.py">
+    <entry file="file://$PROJECT_DIR$/random_forest/random_forest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="53">
+          <caret line="3" column="50" lean-forward="true" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shantel.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_forest_shantel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mean_squared.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-428">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="31" column="78" lean-forward="true" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bayesian_ridge_shantel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-302">
+          <caret line="3" column="46" lean-forward="true" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/svm_shantel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="119">
+          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/random_forest/random_forest.py">
+    <entry file="file://$PROJECT_DIR$/neural_network_shantel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="43" selection-end-line="43" />
+        <state relative-caret-position="184">
+          <caret line="49" selection-start-line="49" selection-end-line="49" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

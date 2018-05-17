@@ -1,4 +1,5 @@
 from sklearn.neural_network import MLPClassifier
+from sklearn.externals import joblib
 
 import pandas as pd
 import numpy as np
@@ -40,6 +41,8 @@ print(metrics.classification_report(y_test,ypred))
 # print(clf.predict([[17,29,23,40,94,69]]))
 # print(clf.predict([[19,48,26,17,95,63]]))
 # print(clf.predict([[19,14,10,25,62,41]]))
+
+joblib.dump(clf, 'model.pkl')
 
 
 
