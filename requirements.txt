@@ -1,5 +1,5 @@
 matplotlib==1.5.2
-requests==2.11.1
+requests==2.20.0
 Quandl==3.3.0
 Keras==2.0.4
 numpy==1.14.2
